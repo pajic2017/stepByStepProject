@@ -21,6 +21,7 @@ public class StepByStepAllApplication {
 	@GetMapping("/start")
 	public String startMessage(){
 		log.info("Inside startMessage() method ");
+		log.severe("Severe log example");
 		return "Welcome to SpringBoot application created by Dragan....";
 	}
 
